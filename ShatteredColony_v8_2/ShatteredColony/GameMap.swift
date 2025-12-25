@@ -248,7 +248,6 @@ class GameMap {
     private var nextCityBuildingId: Int = 0
     private var nextBridgeId: Int = 0
     private var nextDebrisId: Int = 0
-    private var nextBridgeId: Int = 0
     
     init(width: Int = GridConfig.mapWidth, height: Int = GridConfig.mapHeight) {
         self.width = width
